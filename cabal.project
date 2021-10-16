@@ -12,7 +12,7 @@ benchmarks: true
 -- Plutus revision from 2021/08/16
 source-repository-package
   type: git
-  location: https://github.com/input-output-hk/plutus.git
+  location: https://github.com/HachiSecurity/plutus.git
   subdir:
     freer-extras
     playground-common
@@ -28,7 +28,7 @@ source-repository-package
     prettyprinter-configurable
     quickcheck-dynamic
     word-array
-  tag: plutus-starter-devcontainer/v1.0.10
+  tag: 18d6109345b83125d38eea42e0a1859d02569692
 
 
 -- The following sections are copied from the 'plutus' repository cabal.project at the revision
