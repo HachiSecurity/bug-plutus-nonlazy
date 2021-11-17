@@ -1,7 +1,13 @@
 *overzZzealous* in Plutus Starter
 =================================
 
-This fork is meant to demonstrate *overzZzealous* within the Plutus Starter
+We identified an issue in the semantics of Plutus Core, which we refer to as [overzZzealous][blogpost].
+This issue may slow down and raise the cost of evaluating code on the Cardano blockchain,
+or even cause validators to reject transactions and thus block assets. Since developers rarely
+engage with Plutus Core directly, most are oblivious to overzZzealous. Furthermore, as
+the problem comes from the design of Plutus Core, it is challenging to address. 
+
+This project is to demonstrate *overzZzealous* within the Plutus Starter
 project. It is not meant to be used as a starter project. It contains two
 branches:
 
@@ -14,7 +20,7 @@ branches:
 [branch-upstream]:      https://github.com/HachiSecurity/overzzzealous-in-plutus-starter/tree/upstream
 [branch-overzzzealous]: https://github.com/HachiSecurity/overzzzealous-in-plutus-starter/tree/overzzzealous
 
-For instructions or more details, please see:
+For more details, please see:
 
 - [the blog post associated to *overzZzealous*][blogpost],
 - [the GitHub issue associated to *overzZzealous*][issue] and
